@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator - Invisible SOS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div id="display">0</div>
+      <div class="buttons">
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operator">+</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operator">-</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="operator">*</button>
+        <button class="number">0</button>
+        <button class="equals">=</button>
+        <button class="operator">/</button>
+      </div>
+      <p class="instruction">Enter '999=' to secretly trigger the SOS alert.</p>
+      <div id="settings">
+        <button id="settingsButton">Settings</button>
+      </div>
+    </div>
+
+    <div class="overlay" id="settingsOverlay">
+      <div class="settings-content">
+        <h2>Settings</h2>
+        <div id="trustedContacts">
+          <h3>Trusted Contacts</h3>
+          <div id="trustedContactsForm">
+            <input type="text" id="contactName" placeholder="Name" />
+            <input type="tel" id="contactPhone" placeholder="Phone" />
+            <button id="addContact">Add Contact</button>
+          </div>
+          <ul id="contactList"></ul>
+          <button id="trustedContactsButton">View Trusted Contacts</button>
+        </div>
+        <div id="sosTriggers">
+          <h3>SOS Triggers</h3>
+          <p>This section is a simulation.</p>
+          <button id="sosTriggersButton">View SOS Triggers</button>
+        </div>
+        <div id="voiceCode" style="margin-top: 20px">
+          <h3>Voice Code Simulation</h3>
+          <button id="startSpeech">Start Recording</button>
+          <button id="stopSpeech" disabled>Stop Recording</button>
+          <p id="speechTranscript"></p>
+        </div>
+        <div id="shakePattern" style="margin-top: 20px">
+          <h3>Shake Pattern Simulation</h3>
+          <button id="shakeLeft">Left</button>
+          <button id="shakeRight">Right</button>
+          <button id="shakeUp">Up</button>
+          <button id="shakeDown">Down</button>
+          <p id="shakeDisplay"></p>
+        </div>
+        <button id="closeSettings">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
