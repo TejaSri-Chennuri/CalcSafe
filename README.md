@@ -39,16 +39,6 @@ This prototype is intended to demonstrate the "Invisible SOS Mode" concept and i
 * Improved user interface and user experience (UI/UX).
 * Implementation of real accelerometer data for shake detection.
 * Testing on real devices.
-
-## Screenshots
-
-![Calculator Interface](images/calculator.png)
-![Settings Overlay](images/settings.png)
-![Voice Code Simulation](images/voice.png)
-![Shake Pattern Simulation](images/shake.png)
-
-(Ensure the `images` folder exists in your repository root and contains the named screenshot files.)
-
 ## Author
 
 \Teja Sri Chennuri
