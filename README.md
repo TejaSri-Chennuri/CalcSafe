@@ -1,4 +1,4 @@
-# Invisible SOS Mode - Web Prototype
+# Invisible SOS Mode - CalcSafe
 
 ## Description
 
